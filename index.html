@@ -12,7 +12,7 @@
             <form id="formulario">
                 <input type="text" name="tarefa" placeholder="Tarefa" id="tarefaInput" required>
                 <input type="text" name="categoria" placeholder="Categoria" id="categoriaInput" required>
-                <section id="prioridade">
+                <section id="prioridadeSection">
                     <input type="radio" name="prioridade" id="baixa">
                     <label>Baixa</label>
                     
@@ -22,9 +22,18 @@
                     <input type="radio" name="prioridade" id="alta">
                     <label>Alta</label>
 
-                    <input type="date" name="data" id="data">
+                    
                 </section>
-                
+                <section id="dataSection">
+                    <section>
+                        <label for="">Data Inicio</label>
+                        <input type="date" name="data" id="dataInicio">
+                    </section>
+                    <section>
+                        <label for="">Data fim</label>
+                        <input type="date" name="data" id="dataFim">
+                    </section>
+                </section>
                 <input type="text" name="notas" placeholder="Notas" id="notasInput" required>
 
                 <button type="submit">Criar nota</button>

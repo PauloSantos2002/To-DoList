@@ -7,15 +7,17 @@ form.addEventListener('submit', function(event){
     const item = document.createElement('li')
     item.classList.add('itemlista')
     item.innerHTML = `
-            <div>
+            <div class='itemlista_conteudo'>
                 <h2> ${form.tarefa.value} </h2>
                 <p> ${form.categoria.value} </p>
                 <p> ${form.prioridade.value} </p>
                 <p> ${form.data.value} </p>
                 <p> ${form.notas.value} </p>
             </div>
-            <div class="excluir">
-                <p>Excluir</p>
+            <div class='itemlista_botao'>
+                <p class='concluir'> ✅</p>
+                <p class="excluir">🗑️</p>
+                
             </div>
         
     `
