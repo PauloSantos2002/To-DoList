@@ -1,0 +1,56 @@
+:root{
+    /* Color Theme Swatches in Hex */
+    --color1: #FFAE00; 
+    --color2: #634A00; 
+    --color3: #383416; 
+    --color4: #0C7D74; 
+    --color5: #0F353D; 
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body{
+    height: 80dvh;
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    background-color: var(--color5);
+    
+}
+main{
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 5px 3px rgba(0, 0, 0, 0.411);
+    max-width: 600px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+h1{
+    text-align: center;
+    
+}
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#lista{
+    border-bottom: 1px solid #0F353D ;
+    
+}
+.itemlista{
+    border-bottom: 1px solid #0F353D ;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    
+}

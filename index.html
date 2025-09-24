@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To-Do List</title>
+</head>
+<body>
+    <main>
+            <h1>Lista de Tarefas</h1>
+            <form id="formulario">
+                <input type="text" name="tarefa" placeholder="Tarefa" id="tarefaInput" required>
+                <input type="text" name="categoria" placeholder="Categoria" id="categoriaInput" required>
+                <section id="prioridade">
+                    <input type="radio" name="prioridade" id="baixa">
+                    <label>Baixa</label>
+                    
+                    <input type="radio" name="prioridade" id="media">
+                    <label>Média</label>
+                    
+                    <input type="radio" name="prioridade" id="alta">
+                    <label>Alta</label>
+
+                    <input type="date" name="data" id="data">
+                </section>
+                
+                <input type="text" name="notas" placeholder="Notas" id="notasInput" required>
+
+                <button type="submit">Criar nota</button>
+            </form>
+
+            <section id="lista">
+                
+            </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
